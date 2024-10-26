@@ -1,0 +1,91 @@
+body {
+  background-color: #D9E6FF;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+/* The whole container*/
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+/* The block on the top */
+.top-container {
+  background-color: white;
+  box-sizing:  box-sizing; 
+  width: 100%;
+  height: auto;
+}
+
+.main-title {
+  color: #47BFB3;
+}
+
+.guarantee {
+  color: #BADC5C;
+}
+
+.top-text {
+  color: rgba(0,0,0,0.5)
+}
+
+/* The lower box (the left and the right ones)*/
+.lower-container {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+/* The block on the left*/
+
+.left-container {
+  background-color: #5ACCCA;
+  color: white;
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+
+.price {
+  font-size: 30px;
+}
+
+.registration-button {
+  background-color: #AEDE3E;
+  color: white;
+  border: none;
+  width: 90%;
+  height: 22%;
+  margin-left: 5%;
+  border-radius: 8px;
+  transition:background-color 1s, transform 0.5s, transition 2s;
+}
+button:hover {
+  background-color: #9EC938;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+/* The block on the right*/
+.right-container {
+  background-color: #47C8B9;
+  color: white;
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.invisible-list{
+  list-style-type: none;
+}
+
+/*The thee boxes*/
+.top-container, .left-container, .right-container {
+  box-sizing: border-box;
+  padding: 4%;
+}
